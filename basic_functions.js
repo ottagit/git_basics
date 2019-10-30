@@ -1,3 +1,4 @@
+
 let num_arr = [1,2,3,4,5,6];
 
 function sumEven() {
@@ -17,3 +18,9 @@ function returnOdd() {
 }
 
 console.log(returnOdd());
+//contributer stevoh
+function evenNums(){
+  return num_arr.filter(e =>( e % 2 === 0))
+}
+
+console.log(evenNums())
