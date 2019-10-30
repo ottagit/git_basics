@@ -17,3 +17,8 @@ function returnOdd() {
 }
 
 console.log(returnOdd());
+
+// contributer:Olwal002
+
+const evenNums = ()=>!returnOdd();
+console.log(evenNums)
