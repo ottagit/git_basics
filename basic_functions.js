@@ -17,3 +17,7 @@ function returnOdd() {
 }
 
 console.log(returnOdd());
+// contributer: ondwani
+
+const even_nums = () => num_arr.filter(e => e % 2 === 0 );
+console.log (even_nums());
