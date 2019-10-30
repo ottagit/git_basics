@@ -17,3 +17,8 @@ function returnOdd() {
 }
 
 console.log(returnOdd());
+
+// Contributor: Nicole98-aw
+
+const evenNums = () => num_arr.filter(e => e % 2 === 0);
+console.log(evenNums());
