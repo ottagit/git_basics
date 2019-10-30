@@ -17,3 +17,9 @@ function returnOdd() {
 }
 
 console.log(returnOdd());
+
+//Contributer: just-atem
+
+const evenNums = () => num_arr.filter(e => e % 2 ===0);
+
+console.log(evenNums());
